@@ -1,17 +1,16 @@
 .main {
-display: flex;
-flex-direction:column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .main__header {
-background-color: aqua;
+  background-color: aqua;
 }
 
 .main__content {
-background-color: white;
+  background-color: white;
 }
 
 .main__footer {
-background-color: blueviolet;
+  background-color: blueviolet;
 }
