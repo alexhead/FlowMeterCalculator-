@@ -17,6 +17,23 @@ module.exports = {
           loader: "babel-loader", // use babel-loader for processing transpiling js and jsx files to es5
         },
       },
+      {
+        test: /\.module\.css$/,
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              modules: true,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.css$/,
+        exclude: /\.module\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   resolve: {
