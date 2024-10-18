@@ -1,4 +1,17 @@
-.title {
-  font-size: 24px;
-  color: blue;
+.main {
+display: flex;
+flex-direction:column;
+
+}
+
+.main__header {
+background-color: aqua;
+}
+
+.main__content {
+background-color: white;
+}
+
+.main__footer {
+background-color: blueviolet;
 }
