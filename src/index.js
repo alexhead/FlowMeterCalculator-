@@ -1,12 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
+import App from "./components/App/App";
 
 /**
- * This is the main component of the application.
- * @returns {JSX.Element}
+ * Entry point of the application. (src/index.js)
  */
-const App = () => {
-  return <div>Flow Meter Calculator</div>;
-};
-
-ReactDOM.render(<App />, document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
