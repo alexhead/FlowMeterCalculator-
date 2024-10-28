@@ -1,3 +1,26 @@
 .header {
-  color: red;
+  display: flex;
+  flex-direction: row;
+  background-color: #000138;
+  height: 100px;
+  color: #ffffff;
+  align-items: center;
+}
+
+.header__logo {
+  margin-left: 32px;
+}
+
+.header__title {
+  margin-left: 64px;
+}
+
+.header__button {
+  margin: auto;
+  margin-right: 32px;
+}
+
+.header__button img {
+  height: 34px;
+  width: 48px;
 }
