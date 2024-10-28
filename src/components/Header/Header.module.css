@@ -10,9 +10,17 @@
 .header__logo {
   margin-left: 32px;
 }
+.header__logo img {
+  height: 68px;
+  width: 68px;
+}
 
 .header__title {
   margin-left: 64px;
+}
+.header__title img {
+  height: 39px;
+  width: 565px;
 }
 
 .header__button {
