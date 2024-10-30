@@ -11,7 +11,7 @@ const Header = () => {
         <img src={logo} alt="Logo" />
       </div>
       <div className={styles.header__title}>
-        <img src={title} alt="title" />
+        <h2>Калькулятор для настройки налива</h2>
       </div>
       <div onClick={() => alert('Menu')} className={styles.header__button}>
         <img src={button} alt="Logo" />

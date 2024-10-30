@@ -18,9 +18,8 @@
 .header__title {
   margin-left: 64px;
 }
-.header__title img {
-  height: 39px;
-  width: 565px;
+.header__title h1 {
+  color: #ffffff;
 }
 
 .header__button {
