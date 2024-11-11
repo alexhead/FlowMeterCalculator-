@@ -1,9 +1,9 @@
 import React from 'react';
-import * as styles from './UserValuesUI.module.css';
+import * as styles from './InputValuesUI.module.css';
 import ActionButton from '../common/ActionButton/ActionButton';
 
 // UI component
-const UserValuesUI = ({ values, actions }) => {
+const InputValuesUI = ({ values, actions }) => {
   return (
     <div className={styles.main}>
       <div className={styles.main__impulseButtonBlock}>
@@ -34,4 +34,4 @@ const UserValuesUI = ({ values, actions }) => {
   );
 };
 
-export default UserValuesUI;
+export default InputValuesUI;

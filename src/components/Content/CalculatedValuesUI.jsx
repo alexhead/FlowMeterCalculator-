@@ -1,7 +1,7 @@
 import React from 'react';
 
 // UI component
-const CalculateValuesUI = ({ values }) => {
+const CalculatedValuesUI = ({ values }) => {
   return (
     <div>
       <div>{values.volume10L}</div>
@@ -11,4 +11,4 @@ const CalculateValuesUI = ({ values }) => {
   );
 };
 
-export default CalculateValuesUI;
+export default CalculatedValuesUI;
