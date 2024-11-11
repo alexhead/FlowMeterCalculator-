@@ -4,7 +4,12 @@ import CalculatedValuesUI from './CalculatedValuesUI';
 import InputValuesUI from './InputValuesUI';
 import BottleUI from './BottleUI';
 
-// UI component
+/**
+ * Main UI component for styling blocks
+ * @param {*} values - all values litres valve
+ * @param {*} actions -  actiona for change valve and flow impulse
+ * @returns
+ */
 const ContentUI = ({ values, actions }) => {
   return (
     <div className={styles.main}>

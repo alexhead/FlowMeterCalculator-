@@ -1,6 +1,10 @@
 import React from 'react';
 
-// UI component
+/**
+ * UI component for display calculated values
+ * @param {*} values - all values litres valve
+ * @returns
+ */
 const CalculatedValuesUI = ({ values }) => {
   return (
     <div>
