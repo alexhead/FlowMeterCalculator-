@@ -1,0 +1,13 @@
+.main {
+  background-color: aqua;
+}
+
+.main__impulseButtonBlock {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__volumeButtonBlock {
+  display: flex;
+  flex-direction: row;
+}
