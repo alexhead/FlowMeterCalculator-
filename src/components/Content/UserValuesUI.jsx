@@ -3,34 +3,32 @@ import * as styles from './UserValuesUI.module.css';
 import ActionButton from '../common/ActionButton/ActionButton';
 
 // UI component
-const UserValuesUI = ({ userValues }) => {
+const UserValuesUI = ({ values, actions }) => {
   return (
     <div className={styles.main}>
       <div className={styles.main__impulseButtonBlock}>
         <ActionButton
           type="subtract"
           action={() => {
-            userValues.handleChangeImpulseWeight('subtract');
+            actions.onChangeImpulseWeight('subtract');
           }}
         >
           Minus
         </ActionButton>
-        <div>{userValues.impulseWeight}</div>
+        <div>{values.impulseWeight}</div>
         <ActionButton
           type="add"
-          action={() => userValues.handleChangeImpulseWeight('add')}
+          action={() => actions.onChangeImpulseWeight('add')}
         >
           Plus
         </ActionButton>
       </div>
       <div className={styles.main__volumeButtonBlock}>
-        <button onClick={() => userValues.handleChangeVolume5L('subtract')}>
+        <button onClick={() => actions.onChangeVolume5L('subtract')}>
           Minus
         </button>
-        <div>{userValues.volume5L}</div>
-        <button onClick={() => userValues.handleChangeVolume5L('add')}>
-          Plus
-        </button>
+        <div>{values.volume5L}</div>
+        <button onClick={() => actions.onChangeVolume5L('add')}>Plus</button>
       </div>
     </div>
   );

@@ -5,15 +5,15 @@ import UserValuesUI from './UserValuesUI';
 import BottleUI from './BottleUI';
 
 // UI component
-const ContentUI = ({ calculateValues, userValues }) => {
+const ContentUI = ({ values, actions }) => {
   return (
     <div className={styles.main}>
       <div className={styles.main__blockValues}>
         <div className={styles.main__blockValues__userValues}>
-          <UserValuesUI userValues={userValues} />
+          <UserValuesUI values={values} actions={actions} />
         </div>
         <div className={styles.main__blockValues__calculateValues}>
-          <CalculateValuesUI calculateValues={calculateValues} />
+          <CalculateValuesUI values={values} />
         </div>
       </div>
       <div className={styles.main__bottle}>

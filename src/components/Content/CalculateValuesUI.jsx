@@ -1,12 +1,12 @@
 import React from 'react';
 
 // UI component
-const CalculateValuesUI = ({ calculateValues }) => {
+const CalculateValuesUI = ({ values }) => {
   return (
     <div>
-      <div>{calculateValues.volume10L}</div>
-      <div>{calculateValues.volume12L}</div>
-      <div>{calculateValues.volume19L}</div>
+      <div>{values.volume10L}</div>
+      <div>{values.volume12L}</div>
+      <div>{values.volume19L}</div>
     </div>
   );
 };
