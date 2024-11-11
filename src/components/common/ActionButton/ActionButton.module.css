@@ -1,0 +1,37 @@
+.buttonBlock {
+  background-color: aqua;
+}
+
+.buttonBlock button {
+  color: white; /* Белый текст */
+  background-color: #45a049;
+  padding: 10px 20px; /* Внутренние отступы */
+  border: none; /* Без границы */
+  border-radius: 5px; /* Скруглённые углы */
+  cursor: pointer; /* Указатель при наведении */
+  font-size: 16px; /* Размер шрифта */
+  transition: background-color 0.3s; /* Плавный переход для цвета фона */
+}
+
+.buttonBlock_subtract button {
+  background-color: red;
+  transition: background-color 0.3s; /* Плавный переход для цвета фона */
+}
+
+.buttonBlock button:hover {
+  background-color: #45a049; /* Тёмный оттенок зелёного при наведении */
+}
+
+.buttonBlock_subtract:hover button {
+  background-color: red;
+  transition: background-color 0.3s; /* Плавный переход для цвета фона */
+}
+
+.buttonBlock button:active {
+  background-color: #3e8e41; /* Ещё более тёмный оттенок при нажатии */
+}
+
+.buttonBlock button:focus {
+  outline: none; /* Убирает обводку при фокусе */
+  box-shadow: 0 0 5px #4caf50; /* Добавляет тень при фокусе */
+}

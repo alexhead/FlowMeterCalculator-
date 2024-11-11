@@ -1,0 +1,6 @@
+.main {
+}
+
+.main img {
+  height: calc(90vh - 180px);
+}
