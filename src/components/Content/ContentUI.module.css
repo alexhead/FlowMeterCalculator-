@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh - 180px);
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__blockValues {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.main__bottle {
+}
+
+.main__blockValues__userValues {
+  border: 4px #000138 dotted;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.main__blockValues__calculateValues {
+  border: 4px #000138 dotted;
+  border-radius: 16px;
+  padding: 32px;
+}
