@@ -5,6 +5,7 @@
   gap: 32px;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .main__blockValues {
