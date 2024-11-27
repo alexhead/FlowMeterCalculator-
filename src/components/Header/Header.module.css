@@ -1,7 +1,7 @@
 .header {
   display: flex;
   flex-direction: row;
-  background-color: #000138;
+  background: linear-gradient(90deg, #92fe9d 0%, #00c9ff 50%, #00c9ff 100%);
   height: 100px;
   color: #ffffff;
   align-items: center;
@@ -35,5 +35,5 @@
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 500;
-  color: #ffffff;
+  color: #000000;
 }
