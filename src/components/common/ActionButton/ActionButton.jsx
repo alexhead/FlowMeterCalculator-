@@ -1,10 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import * as styles from './ActionButton.module.css';
 import cn from 'classnames';
 
-// UI component
-// 'subtract' - минус
-// 'add' - плюс
 const ActionButton = ({ children, action, type = 'add' }) => {
   return (
     <div

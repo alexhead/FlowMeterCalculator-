@@ -35,6 +35,7 @@ const ContentContainer = () => {
     volume10L: ((volume5L / 5) * 10).toFixed(3),
     volume12L: ((volume5L / 5) * 12 + 0.3).toFixed(3),
     volume19L: ((volume5L / 5) * 19 + 0.5).toFixed(3),
+    volume3L: ((volume5L / 5) * 3).toFixed(3),
   };
 
   // actions
