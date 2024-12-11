@@ -17,13 +17,20 @@
 }
 
 .main__blockValues__userValues {
-  border: 4px #000138 dotted;
+  border: 4px #ffffff dotted;
   border-radius: 16px;
   padding: 32px;
+  width: 700px;
+  height: 318px;
 }
 
 .main__blockValues__calculateValues {
-  border: 4px #000138 dotted;
+  border: 4px #ffffff dotted;
   border-radius: 16px;
   padding: 32px;
+  width: 700px;
+  height: 146px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
